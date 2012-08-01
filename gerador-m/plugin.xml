@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Logus"
+            id="br.com.logusinfo.geradorm">
+      </category>
+      <wizard
+            name="New VO and DAO"
+            icon="icons/logo.gif"
+            category="br.com.logusinfo.geradorm"
+            class="br.com.logusinfo.geradorm.wizards.PersistenceWizard"
+            id="br.com.logusinfo.geradorm.wizards.PersistenceWizard">
+      </wizard>
+   </extension>
+
+</plugin>
